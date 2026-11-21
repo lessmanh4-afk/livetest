@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326635895115",
+    "project_id": "livecast-9f117",
+    "storage_bucket": "livecast-9f117.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326635895115:android:0e66764615babd5a6950ce",
+        "android_client_info": {
+          "package_name": "com.screencastlive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt1V3ouddbfKY-YghW0V_j7ES1PexUjs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

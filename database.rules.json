@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "streams": {
+      ".read": "auth != null",
+      "$id": { ".write": "auth != null && auth.uid == $id" }
+    },
+    "signaling": {
+      "$id": {
+        ".read": "auth != null && auth.uid == $id",
+        ".write": "auth != null && auth.uid == $id",
+        "viewers": {
+          "$vid": {
+            ".read": "auth != null && auth.uid == $vid",
+            ".write": "auth != null && auth.uid == $vid"
+          }
+        }
+      }
+    }
+  }
+}
